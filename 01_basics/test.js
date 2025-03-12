@@ -1,1 +1,1 @@
-console.log("Chanchal")
+console.log("Chan")
