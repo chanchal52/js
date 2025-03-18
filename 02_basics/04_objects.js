@@ -3,7 +3,7 @@ const tinderuser={} //another way of declaring object
 tinderuser.id="123abc"
 tinderuser.name="sammy"
 tinderuser.isloggedin=false
-// console.log(tinderuser) //output is empty object
+//console.log(tinderuser)
 const regularuser={
     email:"some@gmail.com",
     fullname:{ //object k andr object (nested)
@@ -26,13 +26,13 @@ const obj3={...obj1,...obj2}
  //agr database se values aati h tw array of objects aata h 
  const users=[{id:1,email:"ha@gmail.com"},{id2:2,email:"hv@gmail.com"}]
  users[1].email
-  console.log(tinderuser)
-  console.log(Object.keys(tinderuser))
- console.log(Object.values(tinderuser))
-  console.log(Object.entries(tinderuser))
-  console.log(tinderuser.hasOwnProperty('isloggedin'))
+console.log(tinderuser)
+console.log(Object.keys(tinderuser))
+console.log(Object.values(tinderuser))
+console.log(Object.entries(tinderuser))
+console.log(tinderuser.hasOwnProperty('isloggedin'))
 const course={
-    coursename:"js in hindi",
+    coursename: "js in hindi",
     price:"999",
     courseinstructor:"hitesh"
 }
@@ -42,15 +42,4 @@ console.log(courseinstructor) // isse ye hora h ki baar baar course.courseinstru
 // pr lgra ki courseinstructor bht bda naam hai tw usko apn short bhi kr skte h 
 const{courseinstructor:instructor}=course
 console.log(instructor)     // tw bhi result same aaega....oject destructuring 
- 
-{   "name":"hitesh",  
-    "coursename":"js in hindi", //api pr jaruri ni aisi hee rhe
-    "price":"free"
-}
-//ho skta array of object mile for eg
-[
-    {},
-    {},
-    {}
-]
 
