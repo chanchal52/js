@@ -20,6 +20,7 @@ if(true){
 //     console.log("Inner",a)
 // }
 // console.log(a)
+    
 // function one(){
 //     const username="hitesh"
 //     function two(){
@@ -83,5 +84,5 @@ const addtwo=(num1,num2)=>({username:"hitesh"})//agr arrow function use kr rhe h
 console.log(addtwo(3,4)) 
 
 const myarray=[2,3,4,5,6]
-// myarray.forEach(function(){}) //this is a correct syntax
-// myarray.forEach(()=>{}) //arrow function  or ()=>() aise bhi likhte h arrow functions ko 
+    // myarray.forEach(function(){}) //this is a correct syntax
+    // myarray.forEach(()=>{}) //arrow function  or ()=>() aise bhi likhte h arrow functions ko 
