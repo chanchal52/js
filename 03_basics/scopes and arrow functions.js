@@ -80,7 +80,7 @@ const chai =() => {  //ARROW FUNCTION
 // console.log(addtwo(3,4))
 
 const addtwo=(num1,num2)=>({username:"hitesh"})//agr arrow function use kr rhe ho tw return ni use krenge
-//parenthesis use krna hoga agr arrow function ni use kr rhe ho tw return keyword lgana pdega
+//parenthesis use krna hoga.... agr arrow function ni use kr rhe ho tw return keyword lgana pdega
 console.log(addtwo(3,4)) 
 
 const myarray=[2,3,4,5,6]
